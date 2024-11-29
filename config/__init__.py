@@ -1,0 +1,4 @@
+# config/__init__.py
+from .settings import WINDOW_CONFIG, SPECIES_CONFIG, INITIAL_POPULATION, COLORS
+
+__all__ = ['WINDOW_CONFIG', 'SPECIES_CONFIG', 'INITIAL_POPULATION', 'COLORS']
